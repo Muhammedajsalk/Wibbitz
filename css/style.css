@@ -755,3 +755,319 @@ color: #fff;
 font-weight: 600;
 border-radius: 6px;
 }
+                                           /*contact*/
+#contact{
+background: #000;
+padding: 120px 0;
+}
+#contact div.left{
+width: 42%;
+}
+#contact div.left h3{
+max-width: 360px;
+font-size: 44px;
+color: #fff;
+margin-bottom: 25px;
+font-weight: 700;
+}
+#contact div.left p{
+font-size: 16px;
+font-weight: 500;
+color: #9b9b9b;
+}
+#contact div.left hr.line{
+width: 160px;
+margin: 40px 0 25px;
+border-bottom: 1px dashed #cdcdcd;
+}
+#contact div.left div.testimonials{
+}
+#contact div.left div.testimonials h3{
+font-size: 18px;
+color: #fff;
+margin-bottom: 20px;
+font-weight: 600;
+}
+#contact div.left div.testimonials div.content{
+margin-bottom: 15px;
+}
+#contact div.left div.testimonials div.content blockquote{
+margin-bottom: 20px;
+font-style: italic;
+color: #fff;
+line-height: 1.7em;
+}
+#contact div.left div.testimonials div.content h6{
+font-size: 14px;
+font-weight: 700;
+color: #fff;
+}
+#contact div.left div.testimonials div.content span{
+color: #9b9b9b;
+font-size: 14px;
+}
+#contact div.left div.testimonials div.content ul.people{
+display: flex;
+align-items: center;
+margin-top: 15px;
+}
+#contact div.left div.testimonials div.content ul.people li{
+width: 50px;
+height: 50px;
+display: flex;
+justify-content: center;
+border: 2px solid #000;
+border-radius: 50%;
+}
+#contact div.left div.testimonials div.content ul.people li:hover{
+    border-color:#ff784b ;
+    
+}
+#contact div.left div.testimonials div.content ul.people li img{
+border-radius: 50%;
+}
+#contact div.left div.testimonials hr.line_bottom{
+margin-bottom: 60px;
+}
+#contact div.left div.testimonials div.companies{
+}
+#contact div.left div.testimonials div.companies ul.companies{
+display: flex;
+align-items: center;
+}
+#contact div.left div.testimonials div.companies ul.companies li{
+margin-right: 30px;
+}
+#contact div.left div.testimonials div.companies ul.companies li img{
+}
+#contact div.right{
+width: 48%;
+}
+#contact div.right div.content{
+background: #fff;
+padding: 60px 60px 76px;
+border-radius: 6px;
+}
+#contact div.right div.content h4{
+font-size: 24px;
+margin-bottom: 20px;
+font-weight: 600;
+}
+#contact div.right div.content form{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+#contact div.right div.content form div.one_by_two{
+width: 48%;
+background: #fff;
+margin-bottom: 16px;
+}
+#contact div.right div.content form div.one_by_two input{
+width: 100%;
+padding: 12px 16px;
+background: #fff;
+font-size: 16px;
+border-radius: 6px;
+border: 1px solid #dcdcdc;
+}
+#contact div.right div.content form div.one_by_two select {
+padding: 12px 16px;
+border:1px solid #dcdcdc ;
+height: 48px;
+width: 100%;
+appearance: none;
+-webkit-appearance: none;
+font-size: 16px;
+color: #9b9b9b;
+font-weight: 400;
+border-radius: 6px;
+}
+#contact div.right div.content form div.one_by_two select option{
+}
+#contact div.right  form div.full_checkbox{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+#contact div.right  form div.full_checkbox input{
+display: block;
+visibility: hidden;
+opacity: 0;
+}
+#contact div.right  form div.full_checkbox label{
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7em;
+    color: #787878;
+}
+#contact div.right  form div.full_checkbox label:before{
+content: "";
+display: block;
+width: 20px;
+height: 20px;
+border-radius: 4px;
+border: 1px solid #dcdcdc;
+background: #fff;
+position: absolute;
+top: 2px;
+left: 0;
+}
+#contact div.right  form div.full_checkbox input:checked + label{
+    color: #000;
+}
+#contact div.right  form div.full_checkbox input:checked + label:after{
+    opacity: 1;
+    transform: none;
+    border-radius: 4px;
+    background: #3cd278;
+}
+#contact div.right  form div.full_checkbox label:after{
+    content: "\e800";
+    font-family: "fontello";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+    font-size: 8px;
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 1px;
+    transition: all 0.2s ease-in-out 0%;
+    background: ;
+}
+#contact div.right form div.full_checkbox label a{
+font-weight: 500;
+text-decoration: underline;
+color: #787878;
+}
+#contact div.right  form div.full_bottom{
+    margin-top: 30px;
+}
+#contact div.right  form div.full_bottom input.submit{
+    background: #0055fb;
+    padding: 17px 25px;
+    color: #fff;
+    width: 460px;
+    font-weight: 700;
+    display: block;
+    border-radius: 6px;
+    font-size: 16px;
+}
+                                          /*footer*/
+footer{
+padding: 120px 0;
+}
+footer section.wrapper{
+ 
+}
+
+footer section.top{
+display: flex;
+}
+footer section.top div.item_large{
+width: 36%;
+}
+footer section.top div.item_large h2{
+max-width: 260px;
+bottom: 50px;
+}
+footer section.top div.item_large div.social{
+margin-top: 50px;
+}
+footer section.top div.item_large div.social ul{
+display: flex;
+}
+footer section.top div.item_large div.social ul li{
+margin-right: 15px;
+}
+footer section.top div.item_large div.social ul li:last-child{
+    margin: 0;
+}
+footer section.top div.item_large div.social ul li a{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 40px;
+height: 40px;
+border-radius: 14px;
+background: #f0f0f0;
+}
+footer section.top div.item_large div.social ul li a img{
+width: 18px;
+display: block;
+filter: grayscale(100%);
+opacity: 0.4;
+transition: all 0.3s ease-in-out;
+}
+footer section.top div.item_large div.social ul li a:hover{
+
+}
+footer section.top div.item_large div.social ul li a:hover img{
+    filter: grayscale(0);
+    opacity: 1;
+}
+footer section.top div.item{
+width: 16%;
+}
+footer section.top div.item h5{
+font-size: 16px;
+font-weight: 700;
+margin-bottom: 25px;
+}
+footer section.top div.item ul{
+
+}
+footer section.top div.item ul li{
+margin-bottom: 15px;
+}
+footer section.top div.item ul li a{
+font-size: 16px;
+display: flex;
+align-items: center;
+font-weight: 500;
+}
+footer section.top div.item ul li a img{
+width: 24px;
+}
+footer section.top div.item ul li a span{
+margin-left: 10px;
+}
+footer section.bottom{
+
+}
+footer section.bottom div.title{
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+
+}
+footer section.bottom div.title img{
+margin-right: 10px;
+}
+footer section.bottom div.title span{
+font-weight: 600;
+}
+footer section.bottom div.bottom{
+
+}
+footer section.bottom div.bottom ul{
+display: flex;
+}
+footer section.bottom div.bottom ul li{
+margin-right: 20px;
+}
+footer section.bottom div.bottom ul li:last-child{
+    margin-right: 0;
+}
+footer section.bottom div.bottom ul li a{
+display: inline-block;
+}
