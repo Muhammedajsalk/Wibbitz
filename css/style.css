@@ -424,3 +424,188 @@ font-size: 20px;
 font-weight: 600;
 width: 92%;
 }
+                                            /*about*/
+#above{
+padding: 120px 0;
+width: 80%;
+margin: 0 auto;
+}
+#above section.wrapper{
+}
+#above ul{
+display: flex;
+justify-content: space-between;
+}
+#above ul li{
+width: 46%;
+}
+#above ul li div.top{
+position: relative;
+border-radius: 6px;
+overflow: hidden;
+margin-bottom: 25px;
+}
+#above ul li div.top img.cover{
+display: block;
+width: 100%;
+}
+#above ul li div.top div.logo{
+position: absolute;
+width: 112px;
+height: 56px;
+bottom: 15px;
+left: 15px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 6px;
+}
+#above ul li div.top div.logo img{
+width: 100%;
+display: block;
+max-width: 80px;
+max-height: 30px;
+}
+#above ul li div.bottom{
+
+}
+#above ul li div.bottom blockquote{
+ font-size: 20px;
+ font-weight: 600;
+ width: 100%;
+ margin-bottom: 20px;
+} 
+#above ul li div.bottom h6{
+font-size: 14px;
+font-weight: 600;
+margin-bottom: 3px;
+}
+#above ul li div.bottom span{
+ font-size: 14px;
+ color:#787878 ;
+ display: block;
+ margin-bottom: 3px;
+}
+#above ul li div.bottom small{
+ display: block;
+ font-size: 14px;
+ font-weight: 500;
+}
+                                          /*option*/
+#option{
+ background: #f8f8f8;
+ padding: 120px 0;
+}
+#option section.wrapper{
+}
+#option section.top{
+}
+#option section.top h3{
+max-width: 560px;
+font-size: 44px;
+text-align: center;
+font-weight: 700;
+margin: 0 auto;
+}
+#option section.content{
+ margin-top: 80px;
+}
+#option section.content ul{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ align-items: center;
+}
+#option section.content ul li{
+width: 33.33%;
+}
+#option section.content ul li div.content{
+ width: 90%;
+ margin: 0 auto;
+ max-width: 320px;
+ text-align: center;
+ padding: 60px 40px;
+}
+#option section.content ul li:hover div.content{
+    box-shadow: 0 40px 40px -20px rgba(0, 0, 0, 0.1);
+}
+#option section.content ul li:nth-child(3n+2){
+    border-left: 1px dashed rgba(205, 205, 205, 0.8);
+    border-right: 1px dashed rgba(205, 205, 205, 0.8);
+}
+#option section.content ul li a.img-container{
+display: block;
+width: 100%;
+margin-bottom: 30px;
+}
+#option section.content ul li a.img-container img{
+display: block;
+width: 100%;
+max-width: 320px;
+}
+#option section.content ul li h3{
+margin-bottom: 10px;
+}
+#option section.content ul li  h3 a{
+font-size: 24px;
+font-weight: 600;
+}
+#option section.content ul li  p{
+font-size: 16px;
+line-height: 1.7em;
+margin-bottom: 25px;
+}
+#option section.content ul li:hover a.button{
+    visibility: visible;
+    color:#0055fb ;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#option section.content ul li  a.button{
+visibility: hidden;
+}
+#option section.bottom{
+ padding: 40px 50px;
+ max-width: 560px;
+ border-radius: 6px;
+ box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.1);
+ position: relative;
+ background: #d0deff;
+ margin: 80px auto 0;
+}
+#option section.bottom  span.icon{
+position: absolute;
+top: -28px;
+width: 56px;
+height: 56px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 24px;
+background: #fff;
+box-shadow: 0 16px 20px 0 rgba(27, 30, 41, 0.08);
+}
+#option section.bottom  span.icon img{
+}
+#option section.bottom  div.element{
+display: flex;
+}
+#option section.bottom  div.element p{
+margin-right: 35px;
+font-weight: 500;
+}
+#option section.bottom  div.element a.button{
+min-width: 150px;
+height: 50px;
+text-align: center;
+display: flex;
+justify-content: center;
+color: #fff;
+border-radius: 10px;
+background: #0055fb;
+padding: 13.5px 20px;
+font-weight: 600;
+}
