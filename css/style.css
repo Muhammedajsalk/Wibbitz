@@ -153,3 +153,87 @@ header nav ul li a.button{
     border-radius:8px ;
     font-weight: 600;
 }
+
+                                          /*spotlight*/
+#spotlight{
+ padding:98px 72px;
+}   
+#spotlight section.content{
+width: 50%;
+color: #000;
+}   
+#spotlight section.content h1{
+ font-size: 56px;
+ margin-bottom: 35px;
+ font-weight: 700;
+}   
+#spotlight section.content p{
+max-width: 85%;
+font-size: 20px;
+}   
+#spotlight section.content form{
+ margin-top: 50px;
+ position: relative;
+ max-width: 85%;
+}  
+#spotlight section.content form input[type=email]{
+    height: 60px;
+    border-radius: 12px;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 12px 16px;
+    font-size: 17px;
+    width: 100%;
+    display: block;
+}
+#spotlight section.content form input[type=submit]{
+    padding: 17px 25px;
+    font-size: 16px;
+    min-width: 140px;
+    background:#0055fb ;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60px;
+    border-radius: 12px;
+}  
+#spotlight div.right-container{
+ width: 50%;
+ position: relative;
+}
+#spotlight div.right-container div.img-container{
+
+}
+#spotlight div.right-container div.img-container img{
+ display: block;
+ max-width: 100%;
+ transform: scale(1.2);
+}      
+#spotlight div.right-container a.play-button{
+ position: absolute;
+ top: -20%;
+ left: 45%;
+ z-index: 3;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 88px;
+ height: 88px;
+ border-radius: 50%;
+ background: #ff784b;
+}
+#spotlight div.right-container a.play-button img{
+   filter: invert(1);
+}
+#spotlight div.right-container a.play-button:before{
+  content: "";
+  display: block;
+  width: 71px;
+  height: 50px;
+  background: url(../images/dotted-curve.svg) no-repeat center;
+  background-size:71px 50px ;
+  position: absolute;
+  top: 50%;
+  left: -100%;
+}
